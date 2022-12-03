@@ -261,7 +261,7 @@ h1,h2,h3 {
 }
 
 .borde{
-    max-width: 30rem;
+    max-width: 50rem;
     margin-top: 0;
     margin-right: auto;
     margin-bottom: 0;
@@ -285,4 +285,21 @@ h1,h2,h3 {
     margin-right: auto;
     margin-bottom: 7rem;
     margin-left: auto;
+}
+
+.button-2 {
+    background: linear-gradient(to right, rgba(0,153,209,1) 0%, rgba(94,212,255,1) 100%);
+    color: var(--negro);
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    width: 55%;
+    text-align: center;
+}
+.button-2:hover {
+    color: var(--blanco);
 }
